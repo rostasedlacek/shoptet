@@ -38,3 +38,8 @@ body {
     display: none !important;
   }
 }
+@media (min-width: 768px) {
+  #header .navigation-buttons a {
+    margin-left: 0px;
+  }
+}
