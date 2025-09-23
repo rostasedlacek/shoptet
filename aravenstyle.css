@@ -17,7 +17,7 @@ body {
     flex: 0 1 25%;
     flex-grow: 0;
     flex-shrink: 1;
-    flex-basis: 25%;
+    flex-basis: auto;
     background: red;
   }
 }
