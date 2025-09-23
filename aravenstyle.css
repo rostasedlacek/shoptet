@@ -9,6 +9,12 @@
 body {
   /* Např. vlastní font nebo barva pozadí */
   background-color: #fff;
+
+
+   @media (min-width: 480px) {
+  #header .site-name a img {
+    max-height: 602px;
+  }
 }
 
 /* Header top jako flex container */
