@@ -52,6 +52,11 @@ body {
 a.cart-count > * {
   display: none !important;
 }
+/* Vypni původní ikonfont pro košík */
+.navigation-buttons a[data-target="cart"]::before {
+  content: none !important;
+  display: none !important;
+}
 /*
 a.cart-count {
   display: inline-block;
