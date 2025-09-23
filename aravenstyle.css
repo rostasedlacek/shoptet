@@ -5,12 +5,13 @@
 body {
   background-color: #fff;
 }
-
+/*vyska loga*/
 @media (min-width: 480px) {
   #header .site-name a img {
     max-height: 62px;
   }
 }
+/*polozky header*/
 @media (min-width: 768px) {
   #header .header-top-wrapper .site-name,
   #header .header-top-wrapper > div {
@@ -18,14 +19,15 @@ body {
     background: red;
   }
 }
+/*text prihlaseni*/
 .top-nav-button-login span {
   display: none;
 }
-
+/*ikona prihlaseni*/
 .top-nav-button-login {
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   background: url("https://740552.myshoptet.com/user/documents/upload/user.png")
     no-repeat center;
   background-size: contain;
