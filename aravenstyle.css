@@ -49,24 +49,12 @@ body {
 
 /*kosik ikona*/
 /* Skryje původní obsah */
-/*a.cart-count > * {
-  display: none !important;
-}*/
+
 /* Vypni původní ikonfont pro košík */
 .navigation-buttons a[data-target="cart"]::before {
   content: none !important;
   display: none !important;
 }
-/*
-a.cart-count {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  background: url("https://740552.myshoptet.com/user/documents/upload/icons/pixelarticons_cart.svg")
-    no-repeat center;
-  background-size: contain;
-  position: relative;
-}*/
 
 /* Schovej veškerý obsah uvnitř odkazu */
 
@@ -87,4 +75,16 @@ a.cart-count {
     no-repeat center;
   background-size: contain;
   position: relative;
+}
+
+/* zachovej počítadlo, jen ho přemísti nad PNG */
+.navigation-buttons a[data-target="cart"] i {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: red;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 2px 5px;
 }
