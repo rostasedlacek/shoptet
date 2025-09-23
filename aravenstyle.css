@@ -18,9 +18,6 @@ body {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 25%;
+    background: red;
   }
-}
-
-#header .header-top .container {
-  flex-wrap: no-wrap;
 }
