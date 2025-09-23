@@ -9,22 +9,23 @@
 body {
   /* Např. vlastní font nebo barva pozadí */
   background-color: #fff;
+}
 
-
-   @media (min-width: 480px) {
+@media (min-width: 480px) {
   #header .site-name a img {
     max-height: 62px;
   }
 }
 @media (min-width: 768px) {
-  #header .header-top-wrapper .site-name, #header .header-top-wrapper > div {
+  #header .header-top-wrapper .site-name,
+  #header .header-top-wrapper > div {
     flex: 0 1 25%;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: 25%;
   }
 }
-   
+
 /* Flex layout pro header-top */
 #header .header-top .container {
   display: flex;
@@ -65,3 +66,5 @@ body {
 #header .menu-helper {
   display: none;
 }
+
+/***/
