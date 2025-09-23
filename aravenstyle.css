@@ -25,34 +25,43 @@ body {
   }
 }
    
-/* Header top jako flex container */
-#header .header-top {
+/* Flex layout pro header-top */
+#header .header-top .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px; /* mezery mezi bloky */
-  flex-wrap: wrap; /* pro menší obrazovky */
+  gap: 20px;
+  flex-wrap: wrap; /* na menších displejích se zalomí */
 }
 
-/* Každý hlavní blok (logo, navigace, vyhledávání, login, košík) */
-#header .logo,
-#header .main-navigation,
-#header .search,
-#header .login,
-#header .cart {
-  flex: 0 0 auto; /* zachovej přirozenou šířku */
+/* Logo vlevo */
+#header .site-name {
+  flex: 0 0 auto;
 }
 
-/* Navigace roztáhni uprostřed */
-#header .main-navigation {
+/* Navigace zabere co nejvíc místa uprostřed */
+#header nav#navigation {
   flex: 1 1 auto;
-  justify-content: center;
   display: flex;
+  justify-content: center;
 }
 
-/* Vyhledávání s max šířkou */
+/* Vyhledávání se zarovná vpravo s max šířkou */
 #header .search {
-  max-width: 300px;
   flex: 0 1 300px;
+  max-width: 300px;
 }
 
+/* Login a košík na pravé straně */
+#header .navigationActions,
+#header .navigation-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+/* Skryj helper/hamburger, pokud nechceš double menu */
+#header .menu-helper {
+  display: none;
+}
