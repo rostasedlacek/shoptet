@@ -42,7 +42,11 @@ body {
   #header .navigation-buttons a {
     margin-left: 0px;
   }
+  .navigation-in ul {
+    flex-wrap: no-wrap;
 }
+
+
 
 /*kosik ikona*/
 /* Skryj původní obsah (texty, ikonky uvnitř) */
