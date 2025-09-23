@@ -14,10 +14,19 @@ body {
 @media (min-width: 768px) {
   #header .header-top-wrapper .site-name,
   #header .header-top-wrapper > div {
-    flex: 0 1 25%;
-    flex-grow: 0;
-    flex-shrink: 1;
     flex-basis: auto;
     background: red;
   }
+}
+.top-nav-button-login span {
+  display: none;
+}
+
+.top-nav-button-login {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("https://740552.myshoptet.com/user/documents/upload/user.png")
+    no-repeat center;
+  background-size: contain;
 }
