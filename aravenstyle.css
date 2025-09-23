@@ -51,31 +51,37 @@ body {
 /* Skryje původní obsah */
 
 /* Vypni původní ikonfont pro košík */
-.navigation-buttons a[data-target="cart"]::before {
+/*.navigation-buttons a[data-target="cart"]::before {
   content: none !important;
   display: none !important;
-}
+}*/
 
 /* Schovej veškerý obsah uvnitř odkazu */
 
-/* Nastav PNG jako jedinou ikonu */
-/* a.cart-count {
-  display: inline-block;
-  width: 32px; 
-  height: 32px;
+/*#header .btn.cart-count::before*/
+.navigation-buttons a[data-target="cart"]::before {
+  content: "";
   background: url("https://740552.myshoptet.com/user/documents/upload/icons/pixelarticons_cart.svg")
     no-repeat center;
-  background-size: contain;
-} */
+  background-color: rgba(0, 0, 0, 0);
+  background-size: auto;
+  background-size: 16px;
+  width: 24px;
+  height: 24px;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-right: 0;
+}
+/*
 .navigation-buttons a[data-target="cart"] {
   display: inline-block;
-  width: 24px; /* nastav velikost dle tvého PNG */
+  width: 24px; 
   height: 24px;
   background: url("https://740552.myshoptet.com/user/documents/upload/icons/pixelarticons_cart.svg")
     no-repeat center;
   background-size: contain;
   position: relative;
-}
+}*/
 
 /* zachovej počítadlo, jen ho přemísti nad PNG */
 .navigation-buttons a[data-target="cart"] i {
