@@ -1,4 +1,74 @@
-/* custom.css – testovací styl */
+/* ============================================================
+   CUSTOM CSS pro Shoptet
+   Autor: [Rosta]
+   Datum: [23.09.2025]
+   Poznámka: Drž úpravy přehledně podle sekcí
+   ============================================================ */
+
+/* === RESETY / ÚPRAVY VÝCHOZÍ ŠABLONY === */
 body {
-  background: #f9f9f9;
+  /* Např. vlastní font nebo barva pozadí */
+  background-color: #f9f9f9;
+}
+
+/* === HLAVIČKA === */
+.site-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+
+.logo img {
+  max-height: 60px; /* jednotný rozměr loga */
+}
+
+/* === NAVIGACE === */
+.main-navigation ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.main-navigation ul li a {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* === VYHLEDÁVÁNÍ === */
+.search input[type="text"],
+.search input[type="search"] {
+  border-radius: 9999px;
+  padding: 8px 14px;
+  border: 1px solid #ddd;
+}
+
+/* === PRODUKTOVÉ KARTY === */
+.product {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}
+.product:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+.product .price {
+  font-weight: 700;
+  color: #e60023;
+}
+
+/* === TLAČÍTKA === */
+.btn.btn-primary {
+  background-color: #e60023;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+.btn.btn-primary:hover {
+  background-color: #c5001c;
+}
+
+/* === FOOTER === */
+.site-footer {
+  background: #222;
+  color: #fff;
+  padding: 40px 0;
 }
