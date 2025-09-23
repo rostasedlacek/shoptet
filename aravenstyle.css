@@ -58,3 +58,8 @@ body {
   width: 24px;
   height: 24px;
 }
+
+.navigation-buttons a[data-target="cart"] {
+  transition: none !important;
+  margin-left: 0 !important;
+}
