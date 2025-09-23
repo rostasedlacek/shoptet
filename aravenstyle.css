@@ -11,3 +11,34 @@ body {
   background-color: #fff;
 }
 
+/* Header top jako flex container */
+#header .header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px; /* mezery mezi bloky */
+  flex-wrap: wrap; /* pro menší obrazovky */
+}
+
+/* Každý hlavní blok (logo, navigace, vyhledávání, login, košík) */
+#header .logo,
+#header .main-navigation,
+#header .search,
+#header .login,
+#header .cart {
+  flex: 0 0 auto; /* zachovej přirozenou šířku */
+}
+
+/* Navigace roztáhni uprostřed */
+#header .main-navigation {
+  flex: 1 1 auto;
+  justify-content: center;
+  display: flex;
+}
+
+/* Vyhledávání s max šířkou */
+#header .search {
+  max-width: 300px;
+  flex: 0 1 300px;
+}
+
