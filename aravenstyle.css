@@ -43,3 +43,20 @@ body {
     margin-left: 0px;
   }
 }
+
+/*kosik ikona*/
+/* Skryj původní obsah (texty, ikonky uvnitř) */
+a.cart-count > * {
+  display: none !important;
+}
+
+/* Nastav PNG jako pozadí odkazu */
+a.cart-count {
+  display: inline-block;
+  width: 32px; /* velikost ikony */
+  height: 32px;
+  background: url("https://740552.myshoptet.com/user/documents/upload/pixelarticons_cart.png")
+    no-repeat center;
+  background-size: contain;
+  position: relative;
+}
