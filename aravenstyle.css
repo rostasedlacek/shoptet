@@ -16,7 +16,7 @@ body {
   #header .header-top-wrapper .site-name,
   #header .header-top-wrapper > div {
     flex-basis: auto;
-    background: red;
+    /*background: red;*/
   }
 }
 /*text prihlaseni*/
