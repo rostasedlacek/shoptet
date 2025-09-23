@@ -44,9 +44,8 @@ body {
   }
   .navigation-in ul {
     flex-wrap: no-wrap;
+  }
 }
-
-
 
 /*kosik ikona*/
 /* Skryj původní obsah (texty, ikonky uvnitř) */
@@ -57,7 +56,7 @@ a.cart-count > * {
 /* Nastav PNG jako pozadí odkazu */
 a.cart-count {
   display: inline-block;
-  width: 24px; 
+  width: 24px;
   height: 24px;
   background: url("https://740552.myshoptet.com/user/documents/upload/pixelarticons_cart.svg")
     no-repeat center;
