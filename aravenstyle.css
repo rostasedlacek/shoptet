@@ -21,45 +21,6 @@ body {
   }
 }
 
-/* Flex layout pro header-top */
 #header .header-top .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap; /* na menších displejích se zalomí */
+  flex-wrap: no-wrap;
 }
-
-/* Logo vlevo */
-#header .site-name {
-  flex: 0 0 auto;
-}
-
-/* Navigace zabere co nejvíc místa uprostřed */
-#header nav#navigation {
-  flex: 1 1 auto;
-  display: flex;
-  justify-content: center;
-}
-
-/* Vyhledávání se zarovná vpravo s max šířkou */
-#header .search {
-  flex: 0 1 300px;
-  max-width: 300px;
-}
-
-/* Login a košík na pravé straně */
-#header .navigationActions,
-#header .navigation-buttons {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-  flex: 0 0 auto;
-}
-
-/* Skryj helper/hamburger, pokud nechceš double menu */
-#header .menu-helper {
-  display: none;
-}
-
-/***/
