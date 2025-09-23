@@ -16,7 +16,15 @@ body {
     max-height: 62px;
   }
 }
-
+@media (min-width: 768px) {
+  #header .header-top-wrapper .site-name, #header .header-top-wrapper > div {
+    flex: 0 1 25%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 33.3333%;
+  }
+}
+   
 /* Header top jako flex container */
 #header .header-top {
   display: flex;
