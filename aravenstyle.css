@@ -84,6 +84,7 @@ body {
   #header .navigation-buttons a[data-target="cart"] i {
     left: 30px;
     top: 15px;
+    font-weight: 500;
   }
 }
 
