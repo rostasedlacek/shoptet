@@ -9,7 +9,12 @@ body {
 
 #navigation {
   font-family: rubik, sans-serif;
-  font-size: 0.9375rem;
+}
+.navigation-in {
+  font-size: 15px;
+  line-height: 15px;
+}
+.navigation-in ul li a b {
   font-weight: 400;
 }
 
