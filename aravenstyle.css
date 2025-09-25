@@ -66,6 +66,29 @@ body {
   font-weight: 800;
 }
 
+.search-form fieldset {
+  display: flex;
+  align-items: center;
+}
+
+/* Input bude první */
+.search-form .search-input {
+  order: 1;
+  flex: 1 1 auto; /* ať se roztáhne */
+}
+
+/* Lupa bude druhá */
+.search-form .search-input-icon {
+  order: 2;
+  margin-left: -30px; /* zarovná ikonu dovnitř pole – podle potřeby */
+  pointer-events: none; /* ikona nebude klikatelná */
+}
+
+/* Tlačítko bude třetí */
+.search-form .search-button {
+  order: 3;
+}
+
 /*text prihlaseni*/
 .top-nav-button-login span {
   display: none;
