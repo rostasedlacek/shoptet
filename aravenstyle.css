@@ -37,6 +37,16 @@ body {
     /*background: red;*/
   }
 }
+
+@media (min-width: 768px) {
+  #header .search-input:focus,
+  #header .search-input:hover,
+  .search-focused #header .search-input,
+  .search-window-visible #header .search-input {
+    box-shadow: none;
+  }
+}
+
 /*text prihlaseni*/
 .top-nav-button-login span {
   display: none;
