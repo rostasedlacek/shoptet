@@ -70,20 +70,17 @@ body {
   padding-left: 20px;
 }
 
-.search-form fieldset {
-  display: flex !important;
+form.search-form fieldset {
+  display: flex;
   align-items: center;
 }
 
-.search-form span.search-input-icon {
-  display: block; /* udělá ze spanu skutečný flex-item */
-  position: static !important; /* zruší absolute, pokud ho šablona nastavuje */
-  order: 2; /* teď už by to mělo fungovat */
-}
-
-.search-form .search-input {
+form.search-form .search-input {
   order: 1;
   flex: 1 1 auto;
+}
+form.search-form span.search-input-icon {
+  order: 2;
 }
 
 /*text prihlaseni*/
