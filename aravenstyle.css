@@ -4,11 +4,12 @@
 
 body {
   background-color: #fff;
-}
-body,
-#navigation {
-  background-color: #fff;
   font-family: rubik, sans-serif;
+}
+
+#navigation {
+  font-family: rubik, sans-serif;
+  font-size: 0.9375rem;
 }
 
 /*vyska loga*/
