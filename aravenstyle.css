@@ -70,26 +70,20 @@ body {
   padding-left: 20px;
 }
 
-form.search-form fieldset {
-  display: flex !important; /* donutit flexbox */
+.search-form fieldset {
+  display: flex !important;
   align-items: center;
 }
-/* Input bude první */
+
+.search-form .search-input-icon {
+  display: block; /* udělá ze spanu skutečný flex-item */
+  position: static !important; /* zruší absolute, pokud ho šablona nastavuje */
+  order: 2; /* teď už by to mělo fungovat */
+}
+
 .search-form .search-input {
   order: 1;
-  flex: 1 1 auto; /* ať se roztáhne */
-}
-
-/* Lupa bude druhá */
-.search-form .search-input-icon {
-  order: 2;
-  margin-left: -30px; /* zarovná ikonu dovnitř pole – podle potřeby */
-  pointer-events: none; /* ikona nebude klikatelná */
-}
-
-/* Tlačítko bude třetí */
-.search-form .search-button {
-  order: 3;
+  flex: 1 1 auto;
 }
 
 /*text prihlaseni*/
