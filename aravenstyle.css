@@ -67,7 +67,7 @@ body {
 }
 
 .compact-form .form-control {
-  padding: 20px 0 40px;
+  padding: 0 20px 0 40px;
 }
 
 form.search-form fieldset {
