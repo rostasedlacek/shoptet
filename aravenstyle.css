@@ -7,13 +7,13 @@ body {
   font-family: rubik, sans-serif;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1680px) {
   .container {
-    max-width: 1496px;
+    width: 1496px;
   }
 }
 
-/*navigace menu*/
+/*navigace*/
 #navigation {
   font-family: rubik, sans-serif;
 }
