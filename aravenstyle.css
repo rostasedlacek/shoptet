@@ -59,8 +59,10 @@ body {
   #header .search-input:hover,
   .search-focused #header .search-input,
   .search-window-visible #header .search-input,
-  #header .header-top-wrapper > div,/*-------------------------*/
-  #header .navigation-buttons a[data-target="cart"] {
+  #header .header-top-wrapper > div:#header .navigation-buttons a:focus,
+  #header .header-top-wrapper > div:#header .navigation-buttons a:hover,
+  #header .navigation-buttons a:focus,
+  #header .navigation-buttons a:hover {
     box-shadow: none;
   }
 }
