@@ -4,8 +4,13 @@
 
 body {
   background-color: #fff;
+}
+body,
+#navigation {
+  background-color: #fff;
   font-family: rubik, sans-serif;
 }
+
 /*vyska loga*/
 @media (min-width: 480px) {
   #header .site-name a img {
