@@ -12,10 +12,14 @@ body {
 }
 .navigation-in {
   font-size: 15px;
-  line-height: 15px;
+  line-height: 18px;
 }
 .navigation-in ul li a b {
   font-weight: 400;
+}
+#navigation .navigation-in ul li:hover > a > b {
+  text-decoration: none;
+  color: var(--color-secondary-hover);
 }
 
 /*vyska loga*/
