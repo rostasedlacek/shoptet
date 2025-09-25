@@ -75,7 +75,7 @@ body {
   align-items: center;
 }
 
-.search-form .search-input-icon {
+.search-form span.search-input-icon {
   display: block; /* udělá ze spanu skutečný flex-item */
   position: static !important; /* zruší absolute, pokud ho šablona nastavuje */
   order: 2; /* teď už by to mělo fungovat */
