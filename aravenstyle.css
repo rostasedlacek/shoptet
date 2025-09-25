@@ -4,6 +4,7 @@
 
 body {
   background-color: #fff;
+  font-family: rubik, sans-serif;
 }
 /*vyska loga*/
 @media (min-width: 480px) {
@@ -63,5 +64,3 @@ body {
   transition: none !important;
   margin-left: 0 !important;
 }
-
-/*test*/
