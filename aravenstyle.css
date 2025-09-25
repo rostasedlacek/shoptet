@@ -57,8 +57,8 @@ body {
 /*ikona prihlaseni*/
 .top-nav-button-login {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 21px;
+  height: 21px;
   background: url("https://740552.myshoptet.com/user/documents/upload/icons/user.svg")
     no-repeat center;
   background-size: contain;
