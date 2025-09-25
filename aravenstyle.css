@@ -86,7 +86,7 @@ body {
     top: 16px;
     font-weight: 500;
   }
-  .navigation-buttons {
+  #header .navigation-buttons {
     padding-right: 20px;
   }
 }
