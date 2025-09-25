@@ -84,10 +84,7 @@ form.search-form span.search-input-icon {
   display: block;
   position: static;
   order: 2;
-  margin-left: -30px;
-}
-
-.search-input-icon {
+  margin-left: -40px;
   transform: none;
 }
 
