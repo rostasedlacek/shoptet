@@ -34,7 +34,6 @@ body {
   #header .header-top-wrapper .site-name,
   #header .header-top-wrapper > div {
     flex-basis: auto;
-    /*background: red;*/
   }
 }
 
@@ -45,6 +44,10 @@ body {
   .search-window-visible #header .search-input {
     box-shadow: none;
   }
+}
+.search-input-icon::before {
+  content: "\e920";
+  font-weight: 800;
 }
 
 /*text prihlaseni*/
