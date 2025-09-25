@@ -57,9 +57,7 @@ body {
     box-shadow: none;
   }
 }
-
-.search-input-icon::after {
-  content: "\e920";
+.search-input-icon::before {
   font-weight: 800;
 }
 
