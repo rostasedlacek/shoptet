@@ -45,6 +45,11 @@ body {
     border-radius: 10px;
   }
 
+  #header .search-form:hover .search-input {
+    background-color: #f1f1f1;
+    color: #000;
+  }
+
   #header .search-input:focus,
   #header .search-input:hover,
   .search-focused #header .search-input,
