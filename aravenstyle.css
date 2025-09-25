@@ -35,9 +35,12 @@ body {
   #header .header-top-wrapper > div {
     flex-basis: auto;
   }
-}
 
-@media (min-width: 768px) {
+  #header .search-form .search-input {
+    background-color: #f1f1f1;
+    color: #767676;
+  }
+
   #header .search-input:focus,
   #header .search-input:hover,
   .search-focused #header .search-input,
@@ -45,6 +48,7 @@ body {
     box-shadow: none;
   }
 }
+
 .search-input-icon::before {
   content: "\e920";
   font-weight: 800;
