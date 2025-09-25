@@ -7,6 +7,7 @@ body {
   font-family: rubik, sans-serif;
 }
 
+/*navigace*/
 #navigation {
   font-family: rubik, sans-serif;
 }
@@ -41,6 +42,7 @@ body {
   #header .search-form .search-input {
     background-color: #f1f1f1;
     color: #767676;
+    border-radius: 10px;
   }
 
   #header .search-input:focus,
