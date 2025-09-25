@@ -30,6 +30,8 @@ body {
   }
 }
 /*polozky header*/
+
+/*vyhledavani*/
 @media (min-width: 768px) {
   #header .header-top-wrapper .site-name,
   #header .header-top-wrapper > div {
@@ -49,7 +51,7 @@ body {
   }
 }
 
-.search-input-icon::before {
+.search-input-icon::after {
   content: "\e920";
   font-weight: 800;
 }
