@@ -84,12 +84,12 @@ form.search-form span.search-input-icon {
   display: block;
   position: static;
   order: 2;
-  transform: none;
+  margin-left: -30px;
 }
-/*
+
 .search-input-icon {
   transform: none;
-}*/
+}
 
 /*text prihlaseni*/
 .top-nav-button-login span {
