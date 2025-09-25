@@ -79,9 +79,17 @@ form.search-form .search-input {
   order: 1;
   flex: 1 1 auto;
 }
+
 form.search-form span.search-input-icon {
+  display: block;
+  position: static;
   order: 2;
+  transform: none;
 }
+/*
+.search-input-icon {
+  transform: none;
+}*/
 
 /*text prihlaseni*/
 .top-nav-button-login span {
