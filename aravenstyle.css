@@ -28,6 +28,11 @@ body {
   color: var(--color-secondary-hover);
 }
 
+.navigation-in ul li a,
+.navigation-in ul li a:hover {
+  padding: 2rem 15px;
+}
+
 /*vyska loga*/
 @media (min-width: 480px) {
   #header .site-name a img {
