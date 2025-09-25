@@ -70,11 +70,10 @@ body {
   padding-left: 20px;
 }
 
-.search-form fieldset {
-  display: flex;
+form.search-form fieldset {
+  display: flex !important; /* donutit flexbox */
   align-items: center;
 }
-
 /* Input bude první */
 .search-form .search-input {
   order: 1;
