@@ -168,7 +168,13 @@ form.search-form span.search-input-icon {
   height: 24px;
 }
 
+/* vypnuti animaci */
 .navigation-buttons a[data-target="cart"] {
   transition: none !important;
   margin-left: 0 !important;
+}
+
+.search-form .search-input,
+.search-form .form-control {
+  transition: none !important;
 }
