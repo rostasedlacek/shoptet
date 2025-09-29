@@ -181,7 +181,12 @@ form.search-form span.search-input-icon {
 /* rozbaleny kosik */
 .quantity {
   background: none;
-  border-radius: 25px;
+  border-radius: 23px;
+  padding-inline: 35px;
+}
+.cart-widget-product-amount .quantity input {
+  height: 46px;
+  width: 20px;
 }
 .quantity .increase::before {
   left: -2px;
@@ -197,7 +202,7 @@ form.search-form span.search-input-icon {
 
 .quantity .decrease:hover::before,
 .quantity .increase:hover::before {
-  color: var(--color-secondary) !important;
+  color: var(--color-secondary);
   background: transparent !important;
 }
 
