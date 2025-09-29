@@ -191,7 +191,7 @@ form.search-form span.search-input-icon {
 }
 .quantity .decrease:hover::before,
 .quantity .increase:hover::before {
-  background-color: none;
+  background-color: none !important;
   color: var(--color-secondary);
 }
 
