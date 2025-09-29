@@ -208,6 +208,7 @@ form.search-form span.search-input-icon {
 a.btn {
   border-radius: 23px;
   font-size: 15px;
+  padding: 8px 26px;
 }
 .btn,
 .btn.btn-conversion,
