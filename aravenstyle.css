@@ -226,6 +226,16 @@ a.btn.btn-conversion {
   color: #1a1937;
 }
 
+.btn.btn-cart:hover,
+.btn.btn-conversion:hover,
+a.btn.btn-cart:hover,
+a.btn.btn-conversion:hover {
+  background-color: var(--color-secondary);
+  /* border-color: var(--color-secondary-hover); */
+  border: none;
+  color: #fff;
+}
+
 /* vypnuti animaci */
 .navigation-buttons a[data-target="cart"] {
   transition: none !important;
