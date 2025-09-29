@@ -231,9 +231,9 @@ a.btn.btn-conversion {
 .btn.btn-conversion:hover,
 a.btn.btn-cart:hover,
 a.btn.btn-conversion:hover {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary-hover);
   /* border-color: var(--color-secondary-hover); */
-  border: transparent;
+  /* border: transparent; */
   color: #fff;
 }
 
