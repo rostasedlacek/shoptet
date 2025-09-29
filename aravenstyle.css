@@ -190,9 +190,11 @@ form.search-form span.search-input-icon {
 }
 .quantity .increase::before {
   left: -2px;
+  line-height: 46px;
 }
 .quantity .decrease::before {
   left: 2px;
+  line-height: 46px;
 }
 /* .quantity .decrease:hover::before,
 .quantity .increase:hover::before {
