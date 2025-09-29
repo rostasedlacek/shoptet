@@ -59,6 +59,7 @@ body {
     background-color: #f1f1f1;
     /*color: #767676;*/
     border-radius: 10px;
+    font-size: 15px;
   }
   .search-input::placeholder {
     color: #767676;
