@@ -43,6 +43,10 @@ body {
     margin-inline: 0;
     padding-inline: 15px;
   }
+  .navigation-in > ul > li:first-child > a:hover,
+  .navigation-in > ul > li:last-child > a:hover {
+    padding-left: 0px;
+  }
 }
 
 /*vyska loga*/
@@ -247,6 +251,8 @@ a.btn.btn-conversion:hover {
 }
 
 .search-form .search-input,
-.search-form .form-control {
+.search-form .form-control,
+.link-like,
+a {
   transition: none !important;
 }
