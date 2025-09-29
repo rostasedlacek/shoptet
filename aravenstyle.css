@@ -189,10 +189,16 @@ form.search-form span.search-input-icon {
 .quantity .decrease::before {
   left: 2px;
 }
-.quantity .decrease:hover::before,
+/* .quantity .decrease:hover::before,
 .quantity .increase:hover::before {
   background-color: none !important;
   color: var(--color-secondary);
+} */
+
+.quantity .decrease:hover::before,
+.quantity .increase:hover::before {
+  color: var(--color-secondary) !important;
+  background: transparent !important;
 }
 
 /* vypnuti animaci */
