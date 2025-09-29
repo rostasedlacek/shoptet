@@ -178,6 +178,18 @@ form.search-form span.search-input-icon {
   }
 }
 
+/* rozbaleny kosik */
+.quantity {
+  background: none;
+  border-radius: 25px;
+}
+.quantity .increase::before {
+  left: -2px;
+}
+.quantity .decrease::before {
+  left: 2px;
+}
+
 /* vypnuti animaci */
 .navigation-buttons a[data-target="cart"] {
   transition: none !important;
