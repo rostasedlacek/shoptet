@@ -170,7 +170,7 @@ form.search-form span.search-input-icon {
 
 @media (min-width: 992px) {
   .popup-widget.cart-widget::before {
-    right: 25px;
+    right: 22px;
   }
 
   .admin-logged .popup-widget.cart-widget {
@@ -188,6 +188,8 @@ form.search-form span.search-input-icon {
   height: 46px;
   width: 20px;
 }
+
+/* tlacitka */
 .quantity .increase::before {
   left: -2px;
   line-height: 46px;
@@ -196,16 +198,32 @@ form.search-form span.search-input-icon {
   left: 2px;
   line-height: 46px;
 }
-/* .quantity .decrease:hover::before,
-.quantity .increase:hover::before {
-  background-color: none !important;
-  color: var(--color-secondary);
-} */
-
 .quantity .decrease:hover::before,
 .quantity .increase:hover::before {
   color: var(--color-secondary);
   background: transparent !important;
+}
+
+.btn,
+a.btn {
+  border-radius: 23px;
+  font-size: 15px;
+}
+.btn,
+.btn.btn-conversion,
+a.btn,
+a.btn.btn-conversion {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn.btn-cart,
+.btn.btn-conversion,
+a.btn.btn-cart,
+a.btn.btn-conversion {
+  background-color: transparent;
+  border-color: var(--color-secondary);
+  color: #1a1937;
 }
 
 /* vypnuti animaci */
