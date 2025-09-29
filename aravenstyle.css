@@ -7,6 +7,12 @@ body {
   font-family: rubik, sans-serif;
 }
 
+@media (min-width: 1680px) {
+  .container {
+    width: 1496px;
+  }
+}
+
 #header input:focus {
   outline: none !important;
   box-shadow: none !important;
