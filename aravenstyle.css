@@ -157,7 +157,6 @@ form.search-form span.search-input-icon {
 }
 
 /* prepise puvodni ikonu kosiku */
-
 .navigation-buttons a[data-target="cart"]::before {
   content: "";
   display: inline-block;
@@ -224,7 +223,7 @@ a.btn.btn-cart,
 a.btn.btn-conversion {
   background-color: transparent;
   border-color: var(--color-secondary);
-  color: #1a1937;
+  color: var(--color-secondary);
 }
 
 .btn.btn-cart:hover,
@@ -232,8 +231,6 @@ a.btn.btn-conversion {
 a.btn.btn-cart:hover,
 a.btn.btn-conversion:hover {
   background-color: var(--color-secondary-hover);
-  /* border-color: var(--color-secondary-hover); */
-  /* border: transparent; */
   color: #fff;
 }
 
