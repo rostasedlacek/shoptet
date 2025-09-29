@@ -189,6 +189,11 @@ form.search-form span.search-input-icon {
 .quantity .decrease::before {
   left: 2px;
 }
+.quantity .decrease:hover::before,
+.quantity .increase:hover::before {
+  background-color: none;
+  color: var(--color-secondary);
+}
 
 /* vypnuti animaci */
 .navigation-buttons a[data-target="cart"] {
