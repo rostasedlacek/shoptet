@@ -45,7 +45,7 @@ body {
   }
   .navigation-in > ul > li:first-child > a:hover,
   .navigation-in > ul > li:last-child > a:hover {
-    padding-left: 0px;
+    padding-left: 15px;
   }
 }
 
