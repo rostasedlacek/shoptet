@@ -308,6 +308,11 @@ a {
   color: #1a1937;
 }
 
+#content-wrapper .extended-banner-title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.2;
+}
 #content-wrapper .wide-carousel .extended-banner-text {
   font-size: 15px;
   font-weight: 400;
