@@ -280,14 +280,26 @@ a {
 /* Hero sekce*/
 
 #content-wrapper .wide-carousel {
-  width: 100vw; /* viewport width */
+  width: 100vw;
   max-width: 100vw;
-  margin-left: calc(50% - 50vw); /* vytáhne z containeru */
+  margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 }
-.wide-carousel img {
+
+#content-wrapper .wide-carousel .carousel {
+  max-width: 1754px;
   width: 100%;
   height: 572px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+#content-wrapper .wide-carousel img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
