@@ -297,7 +297,6 @@ a {
   height: 572px;
   overflow: hidden;
   border-radius: 8px;
-  /* margin-inline: 23px; */
   z-index: 0;
 }
 #content-wrapper .wide-carousel .carousel::before {
