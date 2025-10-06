@@ -336,6 +336,7 @@ a {
   text-transform: uppercase;
   background-color: var(--color-secondary-hover);
   padding-block: 12px;
+  margin: 0;
   border-radius: 26px;
   transition: background-color 0.3s ease-out;
   z-index: 2;
