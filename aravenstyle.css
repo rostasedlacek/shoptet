@@ -312,11 +312,15 @@ a {
   font-size: 48px;
   font-weight: 500;
   line-height: 1.2;
+  top: 150px;
+  left: 200px;
 }
 #content-wrapper .wide-carousel .extended-banner-text {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.6;
+  top: 235px;
+  left: 200px;
 }
 
 @media (max-width: 1024px) {
