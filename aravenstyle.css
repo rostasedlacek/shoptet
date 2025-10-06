@@ -51,6 +51,13 @@ body {
   .navigation-in > ul > li:last-child > a:hover {
     padding-left: 15px;
   }
+
+  #navigation {
+    height: 58px;
+  }
+}
+
+@media (min-width: 768px) {
 }
 
 /*vyska loga*/
