@@ -279,7 +279,7 @@ a {
 
 /* Hero sekce*/
 
-/* #content-wrapper .wide-carousel {
+#content-wrapper .wide-carousel {
   width: 100vw;
   max-width: 100vw;
   margin-left: calc(50% - 50vw);
@@ -359,53 +359,7 @@ a {
   );
   pointer-events: none;
   z-index: 1;
-} */
-
-/*----------------------*/
-/* Kontejner carouselu */
-#content-wrapper .wide-carousel .carousel {
-  position: relative;
-  max-width: 1754px;
-  width: 100%;
-  height: 572px;
-  overflow: hidden;
-  z-index: 0; /* základní úroveň */
 }
-
-/* Obrázek */
-#content-wrapper .wide-carousel img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  z-index: 0;
-  position: relative;
-}
-
-/* Přechodový overlay – nyní pod textem */
-#content-wrapper .wide-carousel .carousel::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 1) 0%,
-    /* bílá vlevo */ rgba(255, 255, 255, 0) 100% /* průhledná vpravo */
-  );
-  pointer-events: none;
-  z-index: 1; /* pod textem, nad obrázkem */
-}
-
-/* Textový obsah musí být výš než přechod */
-#content-wrapper .wide-carousel .extended-banner-texts {
-  position: relative;
-  z-index: 2;
-}
-
-/*-----------------------------------------------*/
 
 @media (max-width: 1024px) {
   .wide-carousel img {
