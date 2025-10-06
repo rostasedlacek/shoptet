@@ -23,6 +23,7 @@ body {
   font-family: rubik, sans-serif;
   display: flex;
   align-items: center;
+  flex: 0 1 50%;
 }
 .navigation-in {
   font-size: 15px;
