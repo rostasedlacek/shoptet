@@ -290,6 +290,7 @@ a {
 }
 
 #content-wrapper .wide-carousel .carousel {
+  position: relative;
   max-width: 1754px;
   width: 100%;
   height: auto; /*572px*/
@@ -300,12 +301,12 @@ a {
 }
 
 #content-wrapper .wide-carousel img {
+  position: relative;
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
   z-index: 0;
-  position: relative;
 }
 
 #content-wrapper .extended-banner-title,
@@ -314,7 +315,7 @@ a {
   max-width: 615px;
   left: 200px;
   padding: 0;
-  z-index: 3;
+  z-index: 2;
 }
 
 #content-wrapper .extended-banner-title {
