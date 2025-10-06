@@ -303,9 +303,11 @@ a {
 #content-wrapper .wide-carousel .carousel::before {
   content: "";
   position: absolute;
-  inset: 0 auto 0 0;
+  top: 0;
+  left: 0;
   width: 60%;
-  background: linear-gradient(
+  height: 100%;
+  background-image: linear-gradient(
     90deg,
     rgba(255, 255, 255, 0.9) 40%,
     rgba(255, 255, 255, 0.75) 60%,
@@ -313,10 +315,6 @@ a {
   );
   pointer-events: none;
   z-index: 1;
-}
-#content-wrapper .wide-carousel .carousel .item > a {
-  position: relative; /* vytvoří stacking context nad z-index:1 */
-  z-index: 2;
 }
 
 #content-wrapper .wide-carousel img {
@@ -326,14 +324,6 @@ a {
   object-fit: cover;
   display: block;
   z-index: 0;
-}
-
-#content-wrapper .wide-carousel .extended-banner-texts {
-  position: absolute;
-  z-index: 3;
-  top: 150px;
-  left: 200px;
-  max-width: 615px;
 }
 
 #content-wrapper .extended-banner-title,
