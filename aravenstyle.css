@@ -57,7 +57,8 @@ body {
   }
 }
 
-@media (min-width: 768px) {
+.menu-item-39 {
+  display: none;
 }
 
 /*vyska loga*/
