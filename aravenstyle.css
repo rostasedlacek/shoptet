@@ -334,7 +334,7 @@ a {
   border-radius: 26px;
 }
 #content-wrapper a:hover .extended-banner-link {
-  background-color: color: #1a1937;
+  background-color: #1a1937;
 }
 
 @media (max-width: 1024px) {
