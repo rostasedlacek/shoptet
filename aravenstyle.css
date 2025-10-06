@@ -57,9 +57,10 @@ body {
   }
 }
 
-/* .menu-item-39 {
-  display: none;
-} */
+#nav-manufacturers,
+#navigation a[href="/znacka/"] {
+  display: none !important;
+}
 
 /*vyska loga*/
 @media (min-width: 480px) {
