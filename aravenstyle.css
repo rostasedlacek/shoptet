@@ -332,7 +332,6 @@ a {
   top: 235px;
 } */
 
-/* TEXTY – dej prioritu wrapperu, ať je nad overlayem */
 #content-wrapper .wide-carousel .extended-banner-texts {
   position: absolute;
   top: 150px;
@@ -357,6 +356,7 @@ a {
   line-height: 1.6;
   margin: 0 0 20px;
   color: #1a1937;
+  top: 235px;
 }
 
 #content-wrapper .extended-banner-link {
@@ -364,9 +364,11 @@ a {
   text-transform: uppercase;
   background-color: var(--color-secondary-hover);
   padding-block: 12px;
-  padding-inline: 22px;
+  padding-inline: 30px;
   border-radius: 26px;
   transition: background-color 0.3s ease-out;
+  top: 334px;
+  left: 200px;
 }
 
 #content-wrapper a:hover .extended-banner-link {
@@ -375,7 +377,9 @@ a {
 #content-wrapper .wide-carousel .carousel::before {
   content: "";
   position: absolute;
-  inset: 0 auto 0 0;
+  top: 0;
+  left: 0;
+  width: 60%;
   height: 100%;
   background-image: linear-gradient(
     90deg,
