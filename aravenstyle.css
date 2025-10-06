@@ -285,3 +285,20 @@ a {
   margin-left: calc(50% - 50vw); /* vytáhne z containeru */
   margin-right: calc(50% - 50vw);
 }
+.wide-carousel img {
+  width: 100%;
+  height: 572px;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .wide-carousel img {
+    height: 420px;
+  }
+}
+@media (max-width: 640px) {
+  .wide-carousel img {
+    height: 260px;
+  }
+}
