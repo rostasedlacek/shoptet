@@ -47,8 +47,8 @@ body {
 
 @media (min-width: 768px) {
   .navigation-in > ul > li > a:hover,
-  .navigation-in > ul > li.ext.exp a,
-  .navigation-in > ul > li.ext.exp a:hover {
+  .navigation-in > ul > li.ext.exp > a,
+  .navigation-in > ul > li.ext.exp > a:hover {
     margin-inline: 0;
     padding-inline: 15px;
   }
