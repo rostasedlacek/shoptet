@@ -40,24 +40,6 @@ body {
   padding: 2rem 15px;
 }
 
-/* Nastaví, aby navigace měla šířku podle obsahu */
-/* .header-bottom .navigation-wrapper {
-  display: flex;
-  justify-content: flex-start; nebo center, pokud ji chceš vycentrovat
-} */
-/* 
-#navigation {
-  flex: 0 0 auto !important; 
-  width: auto !important; 
-}
-  */
-
-/* Pokud se menu přilepí vlevo a chceš ho trochu oddálit */
-/* #navigation .menu-level-1 {
-  display: inline-flex;
-  gap: 20px; /* mezery mezi položkami */
-} */
-
 @media (min-width: 768px) {
   .navigation-in > ul > li > a:hover {
     margin-inline: 0;
