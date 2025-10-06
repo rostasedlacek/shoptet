@@ -304,6 +304,15 @@ a {
   object-fit: cover;
   display: block;
 }
+#content-wrapper .wide-carousel .extended-banner-texts {
+  color: #1a1937;
+}
+
+#content-wrapper .wide-carousel .extended-banner-text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+}
 
 @media (max-width: 1024px) {
   .wide-carousel img {
