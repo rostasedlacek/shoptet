@@ -296,6 +296,7 @@ a {
   overflow: hidden;
   border-radius: 8px;
   margin-inline: 23px;
+  z-index: 0;
 }
 
 #content-wrapper .wide-carousel img {
@@ -303,6 +304,8 @@ a {
   height: 100%;
   object-fit: cover;
   display: block;
+  z-index: 0;
+  position: relative;
 }
 
 #content-wrapper .extended-banner-title,
@@ -333,7 +336,7 @@ a {
   background-color: var(--color-secondary-hover);
   padding-block: 12px;
   border-radius: 26px;
-  z-index: 3;
+  z-index: 2;
 }
 #content-wrapper a:hover .extended-banner-link {
   background-color: #1a1937;
@@ -354,7 +357,7 @@ a {
     rgba(255, 255, 255, 0) 100%
   );
   pointer-events: none;
-  z-index: 2;
+  z-index: 1;
 }
 
 @media (max-width: 1024px) {
