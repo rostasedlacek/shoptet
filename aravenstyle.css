@@ -21,6 +21,8 @@ body {
 /*navigace*/
 #navigation {
   font-family: rubik, sans-serif;
+  display: flex;
+  align-items: center;
 }
 .navigation-in {
   font-size: 15px;
@@ -43,7 +45,9 @@ body {
     margin-inline: 0;
     padding-inline: 15px;
   }
-  .navigation-in > ul > li:first-child > a:hover,
+  .navigation-in > ul > li:first-child > a:hover {
+    padding-left: 15px;
+  }
   .navigation-in > ul > li:last-child > a:hover {
     padding-left: 15px;
   }
