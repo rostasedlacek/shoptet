@@ -330,8 +330,8 @@ a {
   left: 200px;
   text-transform: uppercase;
   background-color: var(--color-secondary-hover);
-  padding-inline: 10px;
-  border-radius: 50%;
+  padding-block: 12px;
+  border-radius: 26px;
 }
 #content-wrapper .extended-banner-link:hover {
   background-color: color: #1a1937;
