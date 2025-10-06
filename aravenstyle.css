@@ -337,6 +337,23 @@ a {
   background-color: #1a1937;
 }
 
+#content-wrapper .wide-carousel .carousel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; /* pokryje levou polovinu */
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    /* plně bílá vlevo */ rgba(255, 255, 255, 0) 100%
+      /* průhledná směrem doprava */
+  );
+  pointer-events: none; /* neblokuje kliknutí */
+  z-index: 2;
+}
+
 @media (max-width: 1024px) {
   .wide-carousel img {
     height: 420px;
