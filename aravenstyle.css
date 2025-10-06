@@ -295,6 +295,7 @@ a {
   height: 572px;
   overflow: hidden;
   border-radius: 8px;
+  margin-inline: 23px;
 }
 
 #content-wrapper .wide-carousel img {
