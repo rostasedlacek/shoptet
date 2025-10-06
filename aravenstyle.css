@@ -324,6 +324,15 @@ a {
   line-height: 1.6;
   top: 235px;
 }
+#content-wrapper .extended-banner-link {
+  top: 334px;
+  left: 200px;
+  text-transform: uppercase;
+  background-color: var(--color-secondary-hover);
+}
+#content-wrapper .extended-banner-link:hover {
+  background-color: color: #1a1937;;
+}
 
 @media (max-width: 1024px) {
   .wide-carousel img {
