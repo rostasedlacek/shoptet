@@ -310,6 +310,7 @@ a {
   color: #1a1937;
   max-width: 615px;
   left: 200px;
+  padding: 0;
 }
 
 #content-wrapper .extended-banner-title {
