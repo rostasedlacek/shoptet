@@ -42,7 +42,7 @@ body {
 }
 
 #header .header-top-wrapper .search {
-  flex: 1 1 33.333333%;
+  flex: 1 1 auto;
 }
 
 @media (min-width: 768px) {
