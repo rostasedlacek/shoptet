@@ -57,6 +57,12 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  #header .header-top-wrapper .search {
+    flex-grow: 1;
+  }
+}
+
 #nav-manufacturers,
 #navigation a[href="/znacka/"] {
   display: none !important;
