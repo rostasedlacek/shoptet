@@ -292,7 +292,7 @@ a {
 #content-wrapper .wide-carousel .carousel {
   max-width: 1754px;
   width: 100%;
-  height: 572px;
+  height: auto; /*572px*/
   overflow: hidden;
   border-radius: 8px;
   margin-inline: 23px;
