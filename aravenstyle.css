@@ -304,8 +304,12 @@ a {
   object-fit: cover;
   display: block;
 }
-#content-wrapper .wide-carousel .extended-banner-texts {
+
+#content-wrapper .extended-banner-title,
+#content-wrapper .wide-carousel .extended-banner-text {
   color: #1a1937;
+  max-width: 615px;
+  left: 200px;
 }
 
 #content-wrapper .extended-banner-title {
@@ -313,14 +317,12 @@ a {
   font-weight: 500;
   line-height: 1.2;
   top: 150px;
-  left: 200px;
 }
 #content-wrapper .wide-carousel .extended-banner-text {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.6;
   top: 235px;
-  left: 200px;
 }
 
 @media (max-width: 1024px) {
